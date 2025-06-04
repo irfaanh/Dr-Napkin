@@ -36,7 +36,7 @@ export default function HeroSection() {
     {/* Hero Content */}
     <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:items-start md:text-left px-4 md:px-16 text-white z-10">
       <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-        <span className="text-black"> Dr.Napkin</span>,<br /> Let The Energy Flow<br /> Every Day
+        <span className="text-[#eff30c]"> Dr.Napkin,</span><br /> Let The Energy Flow<br /> Every Day
       </h1>
       {/* <p className="text-lg font-semibold md:text-xl max-w-2xl text-black mb-6 drop-shadow-md">
         Designed for women who deserve gentle,
