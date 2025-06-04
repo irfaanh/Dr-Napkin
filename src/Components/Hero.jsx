@@ -40,8 +40,7 @@ export default function HeroSection() {
       </h1>
       <p className="text-lg font-semibold md:text-xl max-w-2xl text-black mb-6 drop-shadow-md">
         Designed for women who deserve gentle,
-        <br />
-        reliable, and hygienic care—every day.
+        reliable,<br /> and hygienic care—every day.
       </p>
       <a
         href="/aboutus"
