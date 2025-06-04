@@ -36,15 +36,15 @@ export default function HeroSection() {
     {/* Hero Content */}
     <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:items-start md:text-left px-4 md:px-16 text-white z-10">
       <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-        Embrace Comfort<br /> with<span className="text-black"> Dr.Napkin</span>
+        <span className="text-black"> Dr.Napkin</span>,<br /> Let The Energy Flow<br /> Every Day
       </h1>
-      <p className="text-lg font-semibold md:text-xl max-w-2xl text-black mb-6 drop-shadow-md">
+      {/* <p className="text-lg font-semibold md:text-xl max-w-2xl text-black mb-6 drop-shadow-md">
         Designed for women who deserve gentle,
         reliable,<br /> and hygienic care—every day.
-      </p>
+      </p> */}
       <a
         href="/aboutus"
-        className="border-2 border-black text-black px-8 py-3 hover:bg-black hover:text-white  text-lg font-semibold shadow-lg transition duration-300"
+        className="border-2 border-black bg-black text-white px-8 py-3 hover:bg-black hover:text-white  text-lg font-semibold shadow-lg transition duration-300"
       >
         Learn More
       </a>
