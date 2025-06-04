@@ -50,7 +50,7 @@ const LandingBlogSection = () => {
               <h3 className="text-xl font-semibold text-[#258eba] mb-2">
                 {blog.title}
               </h3>
-              <p className="text-gray-700 text-sm leading-relaxed">
+              <p className="text-gray-700 text-[15px] leading-relaxed">
                 {blog.description}
               </p>
             </div>

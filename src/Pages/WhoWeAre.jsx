@@ -49,7 +49,7 @@ const WhoWeAre = () => {
               <h2 className={`text-2xl md:text-3xl font-bold`} style={{color:'#258eba'}}>
                 {section.title}
               </h2>
-              <p className="text-sm leading-relaxed whitespace-pre-line">
+              <p className="text-lg leading-relaxed whitespace-pre-line">
                 {section.text}
               </p>
             </div>

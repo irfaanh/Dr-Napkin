@@ -72,7 +72,7 @@ const Blog = () => {
             {/* Content */}
             <div className="md:w-1/2 w-full p-6 shadow-lg border border-[#258eba] cursor-pointer" onClick={()=>navigate(blog.link)}>
               <h3 className="text-2xl font-semibold mb-3 text-[#258eba]">{blog.title}</h3>
-              <p className="text-sm leading-relaxed text-black">{blog.description}</p>
+              <p className="text-lg leading-relaxed text-black">{blog.description}</p>
             </div>
           </div>
         ))}

@@ -13,7 +13,7 @@ const Contact = () => {
         {/* Contact Info */}
         <div className="w-full max-w-md flex flex-col gap-6">
             <h3 className="text-2xl md:text-3xl font-bold text-[#258eba]">Contact Information</h3>
-            <p className="text-sm leading-relaxed">
+            <p className="text-lg leading-relaxed">
                 We'd love to hear from you! Whether you have a question about our products,
                 pricing, or anything else, our team is ready to answer all your questions.
             </p>

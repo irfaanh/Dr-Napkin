@@ -63,7 +63,7 @@ const TaboosPage = () => {
             <h3 className="text-xl font-semibold text-[#258eba] mb-3">
               {item.heading}
             </h3>
-            <p className="text-base leading-relaxed text-gray-800">{item.para}</p>
+            <p className="text-lg leading-relaxed text-gray-800">{item.para}</p>
           </div>
         ))}
       </div>
