@@ -1,6 +1,6 @@
 import prod1 from '../assets/products/pr3.png';
 import prod2 from '../assets/products/pr2.jpg';
-import prod3 from '../assets/products/pr1.png';
+import prod3 from '../assets/products/pr1.jpg';
 import { TbExternalLink } from "react-icons/tb";
 
 const products = [
