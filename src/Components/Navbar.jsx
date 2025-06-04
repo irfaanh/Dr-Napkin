@@ -35,7 +35,14 @@ function Navbar() {
         <div className="flex items-center justify-between h-16 relative">
 
           {/* Logo (left) */}
-          <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
+          <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" 
+          onClick={() => {
+            if(window.location.pathname === "/"){
+                window.location.reload
+            }else {
+                navigate("/")
+            }
+          }}>
               <span className="text-xl font-bold text-gray-800">Dr.Napkin</span>
           </div>
 
