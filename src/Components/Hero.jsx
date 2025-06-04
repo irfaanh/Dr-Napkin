@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import img1 from '../assets/images/napkinhero.jpg';
-import img2 from '../assets/images/napkinhero2.jpg';
-import img3 from '../assets/images/napkinhero3.jpg';
+import img1 from '../assets/images/heroimg1.jpg';
+import img2 from '../assets/images/heroimg2.jpg';
+import img3 from '../assets/images/heroimg3.jpg';
 
 const images = [img1, img2, img3];
 
@@ -22,13 +22,15 @@ export default function HeroSection() {
     <div className="absolute inset-0">
       {images.map((src, index) => (
         <img
-          key={index}
-          src={src}
-          alt={`Slide ${index + 1}`}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-            index === currentIndex ? 'opacity-100' : 'opacity-0'
-          }`}
-        />
+  key={index}
+  src={src}
+  alt={`Slide ${index + 1}`}
+  className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000
+    ${index === currentIndex ? 'opacity-100' : 'opacity-0'}
+    object-[80%] md:object-center
+  `}
+/>
+
       ))}
       <div className="absolute inset-0 bg-opacity-50"></div>
     </div>
@@ -44,7 +46,7 @@ export default function HeroSection() {
       </p> */}
       <a
         href="/aboutus"
-        className="border-2 border-black bg-black text-white px-8 py-3 hover:bg-black hover:text-white  text-lg font-semibold shadow-lg transition duration-300"
+        className="border-2 border-black text-black px-8 py-3 hover:bg-black hover:text-white  text-lg font-semibold shadow-lg transition duration-300"
       >
         Learn More
       </a>
