@@ -28,7 +28,7 @@ const whatsappNumber = '919961171005';
 
 export default function ProductList() {
   return (
-    <div className="py-16 bg-gray-50">
+    <div className="pt-16 bg-gray-50">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#258eba]">Our Products</h2>
       <div className="max-w-6xl mx-auto grid gap-8 grid-cols-1 md:grid-cols-3 px-4">
         {products.map((product) => (
@@ -43,7 +43,7 @@ export default function ProductList() {
             />
             <div className="p-5 flex flex-col flex-grow">
               <h4 className="text-lg font-semibold text-gray-800 mb-2">{product.name}</h4>
-              <p className="text-sm text-gray-600 mb-4">{product.description}</p>
+              <p className="text-sm font-semibold text-gray-600 mb-4">{product.description}</p>
               <a
                 href={`https://wa.me/${whatsappNumber}?text=Hi, I would like to order: ${encodeURIComponent(
                   product.name

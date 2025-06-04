@@ -38,14 +38,14 @@ export default function HeroSection() {
       <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
         Embrace Comfort<br /> with<span className="text-black"> Dr.Napkin</span>
       </h1>
-      <p className="text-lg md:text-xl max-w-2xl mb-6 drop-shadow-md">
+      <p className="text-lg font-semibold md:text-xl max-w-2xl text-black mb-6 drop-shadow-md">
         Designed for women who deserve gentle,
         <br />
         reliable, and hygienic care—every day.
       </p>
       <a
         href="/aboutus"
-        className="border-2 border-white text-white px-8 py-3  text-lg font-semibold shadow-lg transition duration-300"
+        className="border-2 border-black text-black px-8 py-3 hover:bg-black hover:text-white  text-lg font-semibold shadow-lg transition duration-300"
       >
         Learn More
       </a>
