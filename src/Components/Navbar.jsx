@@ -38,7 +38,7 @@ function Navbar() {
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" 
           onClick={() => {
             if(window.location.pathname === "/"){
-                window.location.reload
+                window.location.reload();
             }else {
                 navigate("/")
             }
