@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import img1 from '../assets/images/heroimg1.jpg';
-import img2 from '../assets/images/heroimg2.jpg';
-import img3 from '../assets/images/heroimg3.jpg';
+import img1 from '../assets/images/heroimg1.webp';
+import img2 from '../assets/images/heroimg2.webp';
+import img3 from '../assets/images/heroimg3.webp';
 
 const images = [img1, img2, img3];
 
