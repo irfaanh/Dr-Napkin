@@ -33,8 +33,8 @@ const Contact = () => {
 
                 <div className="flex items-center gap-2">
                     <FaPhoneAlt className="text-base text-[#258eba]" />
-                    <a href="tel:+919961171005" className="hover:underline">
-                    +91 99611 71005
+                    <a href="tel:+919447180033" className="hover:underline">
+                    +91 94471 80033
                     </a>
                 </div>
             </div>

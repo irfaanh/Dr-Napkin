@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-3">
             <FaPhoneAlt className="text-lg" />
-            <span><a href="tel:+919961171005">+91 99611 71005</a></span>
+            <span><a href="tel:+919447180033">+91 94471 80033</a></span>
           </div>
           <div className="flex items-start gap-3">
             <MdLocationOn className="text-lg mt-1" />
